@@ -25,6 +25,7 @@
   overflow: hidden;
   border: 2px solid #57cc99;
   color: #57cc99;
+  margin-bottom: 5px;
 }
 .btn2 {
   min-width: 130px;
@@ -42,4 +43,12 @@
   overflow: hidden;
   border: 2px solid #9c4daa;
   color: #9c4daa;
+}
+.selected-item p {
+  background-color: #ffffff;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }

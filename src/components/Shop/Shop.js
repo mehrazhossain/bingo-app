@@ -12,6 +12,12 @@ const Shop = () => {
       .then((data) => setProducts(data));
   }, []);
 
+  // handle add to cart button
+  const [cart, setCart] = useState([]);
+  const handleAddToCart = (name) => {
+    setCart([...cart, name]);
+  };
+
   return (
     <div className="shop-container">
       <div className="products-container">
@@ -21,11 +27,12 @@ const Shop = () => {
             name={product.name}
             price={product.price}
             img={product.img}
+            handleAddToCart={handleAddToCart}
           ></Product>
         ))}
       </div>
       <div className="cart-container">
-        <Cart></Cart>
+        <Cart cart={cart}></Cart>
       </div>
     </div>
   );
