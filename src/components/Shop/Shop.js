@@ -23,13 +23,16 @@ const Shop = () => {
       alert("You can't select more than 4 items & Duplicated Items");
     }
   };
-
+  // handle choose again
+  // const [cartArr, setCartArr] = useState([]);
+  const handleChooseAgain = () => {
+    setCart([]);
+  };
   return (
     <div className="shop-container">
       <div className="products-container">
         {products.map((product) => (
           <Product
-            key={product.id}
             id={product.id}
             name={product.name}
             price={product.price}
@@ -39,7 +42,7 @@ const Shop = () => {
         ))}
       </div>
       <div className="cart-container">
-        <Cart cart={cart}></Cart>
+        <Cart handleChooseAgain={handleChooseAgain} cart={cart}></Cart>
       </div>
     </div>
   );
