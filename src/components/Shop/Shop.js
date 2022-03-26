@@ -15,7 +15,10 @@ const Shop = () => {
   // handle add to cart button
   const [cart, setCart] = useState([]);
   const handleAddToCart = (name) => {
-    setCart([...cart, name]);
+    if (cart.indexOf(name) === -1 && cart.length <= 3) {
+      const newArray = [...cart, name];
+      setCart(newArray);
+    }
   };
 
   return (
