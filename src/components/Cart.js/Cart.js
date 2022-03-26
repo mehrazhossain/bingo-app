@@ -4,7 +4,7 @@ import './Cart.css';
 const Cart = ({ cart, handleChooseAgain }) => {
   // handle choose 1 for me
   const handleChoose1ForMe = () => {
-    var num = Math.floor(Math.random() * 3) + 1;
+    var num = Math.floor(Math.random() * 3);
     alert(cart.at(num));
   };
 
@@ -13,7 +13,7 @@ const Cart = ({ cart, handleChooseAgain }) => {
       <h3>Selected Gadgets</h3>
       <div className="selected-item">
         {cart.map((name) => (
-          <p>{name}</p>
+          <p key={name}>{name}</p>
         ))}
       </div>
       <button onClick={handleChoose1ForMe} className="btn1">

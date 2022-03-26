@@ -1,4 +1,3 @@
-import { faRandom } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart.js/Cart';
 import Product from '../Product/Product';
@@ -24,7 +23,6 @@ const Shop = () => {
     }
   };
   // handle choose again
-  // const [cartArr, setCartArr] = useState([]);
   const handleChooseAgain = () => {
     setCart([]);
   };
@@ -33,6 +31,7 @@ const Shop = () => {
       <div className="products-container">
         {products.map((product) => (
           <Product
+            key={product.id}
             id={product.id}
             name={product.name}
             price={product.price}
