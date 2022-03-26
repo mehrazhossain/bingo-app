@@ -2,6 +2,10 @@ import React from 'react';
 import './Cart.css';
 
 const Cart = ({ cart }) => {
+  const handleChoose1ForMe = () => {
+    var num = Math.floor(Math.random() * 3) + 1;
+    alert(cart.at(num));
+  };
   return (
     <div className="cart">
       <h3>Selected Gadgets</h3>
@@ -10,8 +14,9 @@ const Cart = ({ cart }) => {
           <p>{name}</p>
         ))}
       </div>
-
-      <button className="btn1">CHOOSE 1 FOR ME</button>
+      <button onClick={handleChoose1ForMe} className="btn1">
+        CHOOSE 1 FOR ME
+      </button>
       <br />
       <button className="btn2">CHOOSE AGAIN</button>
     </div>

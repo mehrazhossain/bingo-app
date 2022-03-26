@@ -1,3 +1,4 @@
+import { faRandom } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart.js/Cart';
 import Product from '../Product/Product';
@@ -18,6 +19,8 @@ const Shop = () => {
     if (cart.indexOf(name) === -1 && cart.length <= 3) {
       const newArray = [...cart, name];
       setCart(newArray);
+    } else {
+      alert("You can't select more than 4 items & Duplicated Items");
     }
   };
 
@@ -26,6 +29,7 @@ const Shop = () => {
       <div className="products-container">
         {products.map((product) => (
           <Product
+            key={product.id}
             id={product.id}
             name={product.name}
             price={product.price}
