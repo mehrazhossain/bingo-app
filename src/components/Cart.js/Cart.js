@@ -4,8 +4,12 @@ import './Cart.css';
 const Cart = ({ cart, handleChooseAgain }) => {
   // handle choose 1 for me
   const handleChoose1ForMe = () => {
-    var num = Math.floor(Math.random() * 3);
-    alert(cart.at(num));
+    var num = Math.floor(Math.random() * 4);
+    if (cart.length === 4) {
+      alert(cart.at(num));
+    } else {
+      alert('Please select 4 items');
+    }
   };
 
   return (
