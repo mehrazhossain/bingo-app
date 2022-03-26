@@ -1,0 +1,74 @@
+[
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Apple MacBook",
+    "price": 420,
+    "img": "https://www.ryanscomputers.com/storage/products/small/apple-macbook-air-late-2020-apple-m1-chip-8gb-11607861922.webp"
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Apple iPad",
+    "price": 420,
+    "img": "https://www.ryanscomputers.com/storage/products/small/apple-ipad-9th-gen-102-inch-64gb-wifi-space-gray-11635747247.webp"
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "HP X24ih",
+    "price": 420,
+    "img": "https://www.ryanscomputers.com/storage/products/small/hp-x24ih-24-inch-fhd-1920x1080-gaming-monitor-11608200850.webp"
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Canon EOS",
+    "price": 420,
+    "img": "https://www.ryanscomputers.com/storage/products/small/canon-eos-200d-ii-slr-digital-camera-11572853230.webp"
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Henry AD",
+    "price": 420,
+    "img": "https://www.ryanscomputers.com/storage/products/small/henry-ad-2138-fake-note-detecting-11550908868.webp"
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Team GX2",
+    "price": 420,
+    "img": "https://www.ryanscomputers.com/storage/products/small/team-gx2-128gb-25-inch-sataiii-ssd-11644667221.webp"
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "MI TV 4S",
+    "price": 420,
+    "img": "https://www.ryanscomputers.com/storage/products/small/mi-tv-4s-55-inch-4k-uhd-3840x2160-smart-led-11647519900.webp"
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Marvo Scorpion",
+    "price": 420,
+    "img": "https://www.ryanscomputers.com/storage/products/small/marvo-ch-106-black-red-gaming-11645604511.webp"
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Panasonic Lumix",
+    "price": 420,
+    "img": "https://www.startech.com.bd/image/cache/catalog/camera/mirriorless/panasonic/lumix-g100/g100-02-228x228.jpg"
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Razer KRAKEN",
+    "price": 420,
+    "img": "https://www.startech.com.bd/image/cache/catalog/headphone/razer/kraken-x/kraken-x-1-228x228.jpg"
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Razer Blade",
+    "price": 420,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/razer/blade-15-advanced-model/blade-15-advanced-model-01-228x228.jpg"
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Pantum P2500W",
+    "price": 420,
+    "img": "https://www.startech.com.bd/image/cache/catalog/printer/pantum/p2500w-1-500x500.jpg"
+  }
+]
